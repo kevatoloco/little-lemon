@@ -1,0 +1,154 @@
+.text {
+  margin-top: 100px;
+  color: #fff;
+  width: 60%;
+}
+form label {
+  font-family: Karla, sans-serif;
+  font-size: 14px;
+  color: #495e57;
+  font-weight: 600;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text h2 {
+  margin-bottom: 30px;
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 45%;
+  height: auto;
+  background-color: #edefee;
+  color: #333333;
+  border-radius: 10px;
+  padding: 10px 10px 30px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form h1 {
+  font-size: 24pt;
+  margin-bottom: 20px;
+  color: #495e57;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+}
+.field-group label {
+  margin-bottom: 10px;
+}
+
+.field-group span {
+  margin-top: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+.form-group input {
+  width: 85%;
+  flex: 1;
+}
+input {
+  padding: 10px;
+  border: 1px solid rgba(51, 51, 51, 0.3);
+  border-radius: 5px;
+  width: auto;
+}
+
+input[type="datetime-local"] {
+  color: #949494;
+}
+
+.form-group select {
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+}
+select {
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+.reserve-btn {
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  background-color: rgb(73, 94, 87);
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.reserve-btn:hover {
+  background-color: #495e57;
+  transition: 0.3s;
+}
+
+.non-valid {
+  font-size: 14px;
+  color: red;
+  font-family: Karla, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .res-content-container {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .text {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .text p {
+    margin-bottom: 0;
+  }
+
+  .form {
+    width: 100%;
+    margin-top: -50px;
+  }
+}
+.res-content-wrapper {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.42),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("https://a.cdn-hotels.com/gdcs/production141/d778/6b200721-9661-4680-aca2-d6e33ce46cf0.jpg");
+  width: 100%;
+  background-size: cover;
+}
+
+.res-content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+  width: 85%;
+  margin: 0px auto;
+  padding: 80px 0;
+}
