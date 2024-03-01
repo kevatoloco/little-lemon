@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import { Link } from "react-router-dom";
 
 import restaurantImage from "./assets/infobox-right.jpg";
 import greekSalad from "./assets/greeksalad.jpg";
@@ -34,7 +35,14 @@ function Main() {
             <br />
             with a modern twist.
           </p>
-          <button className="button">Reserve a Table</button>
+          <button className="button">
+            <Link
+              to="/bookingpage"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              Reserve a Table
+            </Link>
+          </button>
         </div>
         <div className="info-box-right">
           <img src={restaurantImage} alt="" />

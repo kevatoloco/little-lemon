@@ -52,13 +52,14 @@ main {
   border: none;
   border-radius: 1em;
   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
-  color: #000;
   font-family: Karla, sans-serif;
   font-size: 18px;
   font-weight: 800;
   height: 3em;
   margin: 1em;
   width: 12em;
+  text-decoration: none !important;
+  color: #000 !important;
 }
 .info-box-right {
   width: 60%;
